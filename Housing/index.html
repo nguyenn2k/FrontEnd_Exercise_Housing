@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- FONT AWESOME -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+
+<!-- CSS -->
+<link rel="stylesheet" href="./css/style.css">
+
+<title>Housing</title>
+</head>
+<body>
+  <!------------------------- HEADER ------------------------->
+  <header>
+    <div class="header_content">
+      <p style="font-size: 56px">Hous<span style="color: aqua; font-size: 56px">ing</span></p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Agents</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <!------------------------- CAROUSEL ------------------------->
+  <div class="carousel__container">
+    <!-- Slide di chuyển qua lại trong Carousel -->
+    <div class="carousel fade">
+      <img src="./img/b1.jpg" style="width:100%">
+      <h4>LOREM IPSUM AMET</h4>
+			<p>Lorem ipsum dolor sit, consectetur adiping elit.</p>
+    </div>
+
+    <div class="carousel fade">
+      <img src="./img/b2.jpg" style="width:100%">
+      <h4>DOLOR SIT HATANT MORBI </h4>
+			<p>Quis autem vel eum iure reprehenderit quivol.</p>
+    </div>
+
+    <div class="carousel fade">
+      <img src="./img/b3.jpg" style="width:100%">
+      <h4>QUIS AUTEM VE EUM IURE</h4>
+			<p>Excepteur sint ocecat cupid proident, deserunt.</p>
+    </div>
+
+    <div class="carousel fade">
+      <img src="./img/b4.jpg" style="width:100%">
+      <h4>VOLUPTATE VELIT ESSE</h4>
+			<p>Quis autem velreprehenderit qui ea.eum iure</p>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  <!-- Dot Slide -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <!-- Xử lý JS Carousel -->
+  <script src="./js/carousel.js"></script>
+
+  <!------------------------- ABOUT ------------------------->
+  <div class="about">
+    <div class="about-container">
+      <!-- TiTle -->
+      <h3 class="about-title">About</h3>
+      <!-- Cột 1 (About) -->
+      <div class="about-column about-content">
+          <span class="fa fa-home" aria-hidden="true"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+      </div>
+      <!-- Cột 2 (About) -->
+      <div class="about-column about-content">
+          <span class="fa fa-key" aria-hidden="true"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+      </div>
+      <!-- Cột 3 (About) -->
+      <div class="about-column about-content">
+          <span class="fa fa-money-bill" aria-hidden="true"></span>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.</p>
+      </div>
+    <!-- Clear Fix -->
+    <div class="clearfix"></div>
+
+    <!-- ABOUT US -->
+    <div class="aboutus-header">
+      <h4 class="aboutus-title">About us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed odio consequat, tristique elit sed, molestie nulla. 
+        Mauris et quam leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae velit sagittis vehicula. Duis posuere 
+        ex in mollis iaculis. Suspendisse tincidunt ut velit id euismod.vulputate turpis porta ex sodales, dignissim hendrerit 
+        eros sagittis. Curabitur lacinia dui ut luctus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis 
+      </p>
+    </div>
+  </div>
+
+  <!------------------------- STATS ------------------------->
+  <div class="stats">
+    <div class="stats-container">
+      <h3 class="stats-title">Stats</h3>
+      <div class="stats-info">
+        <!-- Cột 1 -->
+        <div class="stats-column stats-content ">
+          <div class="counter">3500</div>
+          <h4>clients</h4> 
+        </div>
+        <!-- Cột 2 -->
+        <div class="stats-column stats-content">
+          <div class="counter">650</div>
+            <h4>Plans</h4>
+        </div>
+        <!-- Cột 3 -->
+        <div class="stats-column stats-content">  
+          <div class="counter">1021</div>
+            <h4>projects</h4>
+        </div>
+        <!-- Cột 4 -->
+        <div class="stats-column stats-content">
+          <div class="counter">1010</div>
+            <h4>Likes</h4>
+        </div>
+        <!-- ClearFix -->
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------- BLOG ------------------------->
+  <div class="blog-header">
+		<div class="blog-container">
+		  <h3 class="blog-title">Blog</h3>
+			<div class="blog-content">
+        <!-- Ảnh 1 -->
+			  <div class="blog-column">
+				  <div class="column1">
+					  <div class="column-background">
+						  <div class="blog-image">
+							  <img src="./img/g1.jpg" alt=" " class="img-responsive">
+						  </div>
+						  <div class="blog-info">
+							  <h5><a href="#"> Lorem Ipsum passage,</a></h5>
+							  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							  <div class="blog-readmore-bttn">	
+							    <a href="#">Read more..</a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="clearfix"></div>
+				</div>
+        <!-- Ảnh 2 -->
+				<div class="blog-column">
+				  <div class="column2">
+					  <div class="column-background">
+						  <div class="blog-image">
+							  <img src="img/g2.jpg" alt=" " class="img-responsive">
+						  </div>
+						  <div class="blog-info">
+							    <h5><a href="#"> Lorem Ipsum passage,</a></h5>
+							    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							  <div class="blog-readmore-bttn">	
+							    <a href="#">Read more..</a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="clearfix"></div>
+				</div>
+        <!-- Ảnh 3 -->
+			  <div class="blog-column">
+				  <div class="column3">
+					  <div class="column-background">
+						  <div class="blog-image">
+							  <img src="img/g1.jpg" alt=" " class="img-responsive">
+						  </div>
+						  <div class="blog-info">
+							  <h5><a href="#"> Lorem Ipsum passage,</a></h5>
+							  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+							  <div class="blog-readmore-bttn">	
+							    <a href="#">Read more..</a>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div> 
+    </div>
+  </div>
+
+  <!------------------------- VDIEO-GETMORE ------------------------->
+  <div class="play">
+    <div class=" pope banner-agileits-btm" id="video">
+        <div class="button">
+          <a href="#small-dialog1" class="play-icon popup-with-zoom-anim"><span class="fa fa-play-circle" aria-hidden="true"></span></a>			
+        </div>
+          <div id="small-dialog1" class="mfp-hide w3ls_small_dialog wthree_pop">		
+            <div class="agileits_modal_body">
+              <iframe src="https://player.vimeo.com/video/106770833"></iframe>
+            </div>
+          </div>
+      </div>
+    <!-- GET MORE -->
+    <div class="matter">
+      <h2>Get More..</h2>
+      <div class="some-text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing
+          elit, sed do eiusmod tempor incididunt ut minim veniam,
+          labore et dolore magna aliqua. Ut enim ad minim veniam, 
+          quis nostrud exercitation ullamco laboris nisi 
+          esse quam nihil molestiae consequatur, vel illum qui 
+          dolorem eum fugiat quo voluptas nulla pariatur.
+        </p>
+      </div>
+       <div class="some-text-one">
+           <a href="#">Read more..</a>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+  <!------------------------- GALLERY ------------------------->
+  <div id="gallery" class="gallery">
+		<div class="container">
+    <h3 class="gallery-title">Portfolio</h3>		
+			<div class="agile_gallery_grids">	
+        <!-- Hàng 1 -->
+				<div class="gallery-column agile_gallery_grid"> 
+					<div class="w3ls_gallery_grid-top">
+						<a href="img/img1.jpg" class="wthree_p_grid">  
+							<img src="images/img1.jpg" class="img-responsive">
+							<div class="gallery-content-wrap">
+								<div class="gallery-content">		
+									<h3>gallery</h3>
+									<p>Lorem Ipsum is simply dummy</p>
+								</div>
+							</div> 
+						</a>
+					</div> 
+					<div class="clearfix"> </div>
+				</div> 
+
+				<div class="gallery-column agile_gallery_grid"> 
+					<div class="w3ls_gallery_grid-top mid-t">
+						<a href="img/img2.jpg" class="wthree_p_grid">  
+							<img src="images/img2.jpg" class="img-responsive">
+							<div class="gallery-content-wrap">
+								<div class="gallery-content">		
+									<h3>gallery</h3>
+									<p>Lorem Ipsum is simply dummy</p>
+								</div>
+							</div> 
+						</a>
+					</div> 
+					<div class="clearfix"> </div>
+				</div> 
+
+				<div class="gallery-column agile_gallery_grid"> 
+				  <div class="w3ls_gallery_grid-top mid">
+						<a href="img/img6.jpg" class="wthree_p_grid">  
+							<img src="images/img6.jpg" class="img-responsive">
+							<div class="gallery-content-wrap">
+								<div class="gallery-content">		
+									<h3>gallery</h3>
+									<p>Lorem Ipsum is simply dummy</p>
+								</div>
+							</div> 
+						</a>
+					</div> 
+					<div class="clearfix"> </div>
+				</div> 
+        <!-- Hàng 2 -->
+				<div class="gallery-column agile_gallery_grid "> 
+					<div class="w3ls_gallery_grid-low">
+						<a href="./img/img4.jpg" class="lsb-preview wthree_p_grid" data-lsb-group="header">  
+							<img src="images/img4.jpg" alt=" " class="img-responsive">
+							<div class="agileinfo_content_wrap">
+								<div class="agileits_content">		
+									<h3>gallery</h3>
+									<p>Lorem Ipsum is simply dummy</p>
+								</div>
+							</div> 
+						</a>
+					</div> 
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="gallery-column agile_gallery_grid"> 
+					<div class="w3ls_gallery_grid-low">
+						<a href="./img/img5.jpg" class="lsb-preview wthree_p_grid" data-lsb-group="header">  
+							<img src="images/img5.jpg" alt=" " class="img-responsive">
+							<div class="agileinfo_content_wrap">
+								<div class="agileits_content">		
+									<h3>gallery</h3>
+									<p>Lorem Ipsum is simply dummy</p>
+								</div>
+							</div> 
+						</a>
+					</div> 
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="gallery-column agile_gallery_grid"> 
+					<div class="w3ls_gallery_grid-low">
+						<a href="images/img3.jpg" class="lsb-preview wthree_p_grid" data-lsb-group="header">  
+							<img src="images/img3.jpg" alt=" " class="img-responsive">
+							<div class="agileinfo_content_wrap">
+								<div class="agileits_content">		
+									<h3>gallery</h3>
+									<p>Lorem Ipsum is simply dummy</p>
+								</div>
+							</div> 
+						</a>
+					</div>
+					<div class="clearfix"></div>
+				</div> 
+				<div class="clearfix"></div>
+			</div> 
+		</div>
+	</div>
+
+  <!------------------------- SUBSCRIBE ------------------------->
+  <div class="subscribe">
+    <div class="subscribe-container">
+      <div class="subscribe-rows">
+        <div class="subscribe-click">
+		      <h3 class="subscribe-title">Subscribe</h3>
+		      <p>
+            Consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.Ut enim ad minim veniam,quis nostrud 
+            exercitation ullamco laboris nisi
+          </p>
+		    </div> 
+         <div class=" letter-sub">
+            <form action="#" method="post">
+			        <div class="sub-email">
+					      <input type="email" name="email" placeholder="Email" required="">
+					    </div>
+					    <div class="clicksend-button">
+						    <button class="btn">Click</button>
+					    </div>	
+					  </form>
+          </div>
+		      <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  
+  <!------------------------- OUR AGENTS ------------------------->
+  <div class="ouragents">
+    <div class="ouragents-container">
+        <h3 class="ouragents-title">Our Agents</h3>
+      <div class="ouragents-content">
+        <!-- Cột 1 -->
+        <div class="ouragents-content-column">
+          <div class="ouragents-info">
+            <img src="img/t1.jpg" alt="">
+            <div class="ouragents-caption"> 
+              <h4>kat wally</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Cột 2 -->
+        <div class="ouragents-content-column">
+          <div class="ouragents-info">
+            <img src="./img/t4.jpg" alt="">
+            <div class="ouragents-caption"> 
+              <h4>john max</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Cột 3 -->
+        <div class="ouragents-content-column">
+          <div class="ouragents-info">
+            <img src="./img/t2.jpg" alt="">
+            <div class="ouragents-caption"> 
+              <h4>roy kent</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Cột 4 -->
+        <div class="ouragents-content-column">
+          <div class="ouragents-info">
+            <img src="./img/t3.jpg" alt="">
+            <div class="ouragents-caption"> 
+              <h4>joy Idson</h4>
+              <p>Lorem Ipsum</p>
+              <ul>
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                <li><a href="#"><span class="fa fa-rss"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <!-- ClearFix -->
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------------- CONTACT US ------------------------->
+  <div class="contact">
+		<div class="contact-container">	
+      <h3 class="contact-title">Contact Us</h3>		
+	    <div class="contact-form">
+		    <form action="#" method="post">
+			    <div class="contact-column">
+					  <div class=" form-left">
+						  <input type="text" name="name" placeholder="Name" required="">
+					  </div>
+					  <div class=" form-left">
+						  <input type="text" name="last name" placeholder="Last Name" required="">
+						  <div class="clearfix"> </div>
+					  </div>
+					  <div class=" form-right ">
+						  <input class="email" type="email" name="email" placeholder="Email" required="">
+					  </div>
+					  <div class="form-right phone">
+						  <input type="text" name="phone" placeholder="Phone" required="">
+					  </div>
+			    </div>
+				  <div class="contact-column">
+			      <textarea placeholder="Message" required=""></textarea>
+				    <input type="submit" value="Submit">
+				  </div>
+				  <div class="clearfix"> </div>
+		    </form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
